@@ -15,6 +15,7 @@ namespace lab2
             public string Name { get; set; }
             public Employee Manager { get; set; }
 
+            public Department() { }
 
             public Department(string name)
             {
@@ -32,6 +33,7 @@ namespace lab2
             public string Name { get; set; }
             public Department Department { get; set; }
 
+            public Employee() { }  
             public Employee(string name, Department department)
             {
                 Name = name;

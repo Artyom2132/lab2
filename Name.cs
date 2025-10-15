@@ -8,9 +8,11 @@ namespace lab2
 {
     internal class Name
     {
-        public string? FirstName { get; }
-        public string? LastName { get; }
-        public string? MidleName { get; }
+        public string? FirstName { get; set; }
+        public string? LastName { get; set; }
+        public string? MidleName { get; set; }
+        
+        public Name() { }
 
         public Name(string? firstName, string? lastName, string? midleName)
         {

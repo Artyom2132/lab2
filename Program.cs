@@ -14,26 +14,26 @@ namespace lab2
         {
             //2
             //Person person = new Person();
-            //person.name = "Клеопатра";
-            //person.height = 152;
+            //person.Name = "Клеопатра";
+            //person.Height = 152;
             //person.Print();
 
             //Person person1 = new Person();
-            //person1.name = "Пушкин";
-            //person1.height = 167;
+            //person1.Name = "Пушкин";
+            //person1.Height = 167;
             //person1.Print();
 
             //Person person2 = new Person();
-            //person2.name = "Владимир";
-            //person2.height = 189;
+            //person2.Name = "Владимир";
+            //person2.Height = 189;
             //person2.Print();
 
             //3
-            //var name1 = new Name("Клеопатра",null,null);
+            //var name1 = new Name("Клеопатра", null, null);
             //Console.WriteLine(name1);
-            //var name2 = new Name("Пушкин","Александр","Сергеевич");
+            //var name2 = new Name("Пушкин", "Александр", "Сергеевич");
             //Console.WriteLine(name2);
-            //var name3 = new Name("Маяковский","Владимир",null);
+            //var name3 = new Name("Маяковский", "Владимир", null);
             //Console.WriteLine(name3);
 
             //2.4
@@ -50,12 +50,12 @@ namespace lab2
             //Console.WriteLine(sidorov.ToString());
 
             //4.1
-            Pistol pistol = new Pistol(3);
+            //Pistol pistol = new Pistol(3);
 
-            for (int i = 0; i < 5; i++)
-            {
-                pistol.Shoot();
-            }
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    pistol.Shoot();
+            //}
         }
     }
    

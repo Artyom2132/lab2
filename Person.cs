@@ -9,11 +9,25 @@ namespace lab2
 {
    class Person
     {
-        public string name = "Undefined";
-        public int height = 0;
+        public string Name { get; set; }
+        public int Height { get; set; }
+        public Person()
+        {
+            Name = "Undefined";
+            Height = 0;
+        }
+        public Person(string name, int height)
+        {
+            Name = name;
+            Height = height;
+        }
         public void Print()
         {
-            Console.WriteLine($"Человек с именем {name} и ростом {height}");
+            Console.WriteLine($"Человек с именем {Name} и ростом {Height}");
+        }
+        public override string ToString()
+        {
+            return $"Имя: {Name}, Рост: {Height}";
         }
     }
 }
