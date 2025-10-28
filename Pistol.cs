@@ -8,7 +8,12 @@ namespace lab2
 {
     internal class Pistol
     {
-        public int Bullets { get; private set; }
+        private int bullets;
+        public int Bullets
+        {
+            get { return bullets; }
+            private set { bullets = value; }
+        }
 
         public Pistol()
         {
@@ -17,7 +22,7 @@ namespace lab2
 
         public Pistol(int bullets)
         {
-            Bullets = bullets >= 0 ? bullets : 0; 
+            Bullets = bullets >= 0 ? bullets : 0;
         }
 
         public void Shoot()
@@ -33,7 +38,4 @@ namespace lab2
             }
         }
     }
-
-   
 }
-

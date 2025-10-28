@@ -9,8 +9,18 @@ namespace lab2
 {
    class Person
     {
-        public string Name { get; set; }
-        public int Height { get; set; }
+        private string name { get; set; }
+        public string Name
+        {
+            get {  return name; }
+            set { name = value; }
+        }
+        private int height { get; set; }
+        public int Height
+        {
+            get { return height; }
+            set {  height = value; }
+        }
         public Person()
         {
             Name = "Undefined";
